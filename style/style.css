@@ -422,7 +422,7 @@ p {
   text-align: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 2rem;
 }
 .facts__card {
   border: 1px solid var(--clr-orange);
@@ -493,4 +493,21 @@ p {
   filter: grayscale(100%);
 }
 
+/* Footer */
 
+.footer__info {
+  font-size: 1.25rem;
+  color: var(--clr-dark-2);
+  text-align: center;
+  padding: 38px 20px;
+  border-radius: 8px;
+  background-color: var(--footer-bg);
+  margin-bottom: 200px;
+  line-height: 1.6;
+}
+@media (max-width: 768px) {
+  .footer__info {
+    padding: 20px 16px;
+    margin-bottom: 100px;
+  }
+}
