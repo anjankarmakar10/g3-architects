@@ -552,6 +552,17 @@ p {
   gap: 100px;
   width: 100%;
 }
+@media (max-width: 768px) {
+  .sponsors__info {
+    margin-block: 16px 30px;
+  }
+  .sponsors {
+    margin-bottom: 80px;
+  }
+  .sponsor-container {
+    gap: 50px;
+  }
+}
 .sponsor {
   max-width: 150px;
   filter: grayscale(100%);
