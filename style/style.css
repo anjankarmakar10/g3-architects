@@ -557,6 +557,15 @@ p {
   filter: grayscale(100%);
 }
 
+@media (max-width: 768px) {
+  .sponsors__info {
+    margin-block: 16px 30px;
+  }
+  .sponsors {
+    max-width: 120px;
+  }
+}
+
 /* Footer */
 
 .footer__info {
