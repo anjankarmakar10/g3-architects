@@ -38,7 +38,7 @@ h1 {
   color: var(--clr-dark-1);
 }
 h2 {
-  font-weight: 700px;
+  font-weight: 700;
   line-height: 52px;
   font-size: clamp(
     1.75rem,
@@ -80,3 +80,45 @@ p {
   padding-block: 21px 20px;
   color: var(--clr-white);
 }
+
+/* Header */
+.header {
+  padding-top: 50px;
+  background: var(--clr-header);
+  min-height: 100vh;
+}
+@media (max-width: 768px) {
+  .header {
+    padding-top: 20px;
+  }
+}
+/* Navbar */
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+.nav__list {
+  display: flex;
+  gap: 3rem;
+}
+
+.nav__title {
+  margin-right: auto;
+}
+
+.nav__menu i {
+  font-size: 1.875rem;
+  cursor: pointer;
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .nav__menu i {
+    display: block;
+  }
+  .nav__list {
+    display: none;
+  }
+}
+
