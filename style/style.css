@@ -129,6 +129,7 @@ p {
 
 .nav__title {
   margin-right: auto;
+  cursor: pointer;
 }
 
 .nav__menu i {
