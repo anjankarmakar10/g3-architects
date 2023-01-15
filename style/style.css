@@ -477,7 +477,7 @@ p {
     margin-bottom: 80px;
   }
   .testimonials__heading {
-    margin-bottom: 40px;
+    margin-bottom: 60px;
   }
 }
 
@@ -555,15 +555,6 @@ p {
 .sponsor {
   max-width: 150px;
   filter: grayscale(100%);
-}
-
-@media (max-width: 768px) {
-  .sponsors__info {
-    margin-block: 16px 30px;
-  }
-  .sponsors {
-    max-width: 120px;
-  }
 }
 
 /* Footer */
