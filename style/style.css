@@ -132,18 +132,19 @@ p {
   cursor: pointer;
 }
 
-.nav__menu i {
-  font-size: 1.875rem;
-  cursor: pointer;
-  display: none;
-}
-
 @media (max-width: 768px) {
-  .nav__menu i {
-    display: block;
+  .nav {
+    flex-direction: column;
   }
+  .nav__title {
+    margin-inline: auto;
+  }
+}
+@media (max-width: 480px) {
   .nav__list {
-    display: none;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
   }
 }
 
